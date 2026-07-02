@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - name: Record activity
         run: |
           date -u +"%Y-%m-%dT%H:%M:%SZ" >> activity.log
