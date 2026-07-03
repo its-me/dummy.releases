@@ -1,4 +1,4 @@
-name: monthly-minor-release
+name: Monthly minor release
 
 on:
   schedule:

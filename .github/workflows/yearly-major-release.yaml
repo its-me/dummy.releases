@@ -1,4 +1,4 @@
-name: yearly-major-release
+name: Yearly major release
 
 on:
   schedule:
